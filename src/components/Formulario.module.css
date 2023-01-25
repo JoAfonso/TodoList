@@ -3,11 +3,14 @@ input {
     font-size: 16px;
     padding: 0.5em;
     font-family: Barlow, sans-serif;
+    width: 40vw;
   }
   
   .inputs {
     display: flex;
     gap: 0.5em;
+    justify-content: left;
+   
   }
   
   .btnAdd {
