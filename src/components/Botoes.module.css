@@ -1,0 +1,39 @@
+.btns {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5em;
+  }
+  
+  
+  .remove_btn {
+    background-color: #da1212;
+    border: 1px solid #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .remove_btn:hover {
+      background-color:#da1212;
+  }
+  .remove_btn:active {
+      position:relative;
+      top:3px;
+  }
+  
+  .complete_btn {
+    background-color: #44c767;
+    border: 1px solid #18ab29;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .complete_btn:hover {
+      background-color:#5cbf2a;
+  }
+  .complete_btn:active {
+      position:relative;
+      top:3px;
+  }
+  

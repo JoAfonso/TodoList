@@ -1,0 +1,31 @@
+
+input {
+    font-size: 16px;
+    padding: 0.5em;
+    font-family: Barlow, sans-serif;
+  }
+  
+  .inputs {
+    display: flex;
+    gap: 0.5em;
+  }
+  
+  .btnAdd {
+    background-color: #44c767;
+    border: 1px solid #18ab29;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #46813d;
+  }
+  
+  .btnAdd:active {
+    position: relative;
+    top: 3px;
+  }
+  
