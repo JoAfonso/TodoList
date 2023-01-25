@@ -3,7 +3,7 @@ import "./App.css";
 import Formulario from "./components/Formulario";
 import Lista from "./components/Lista";
 
-function Appeeee() {
+function App() {
   const [todos, setTodos] = useState([]);
 
   function addTodo(text) {
