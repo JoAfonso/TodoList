@@ -1,6 +1,6 @@
 import React from 'react'
 import Botoes from './Botoes'
-import styles from './Botoes.module.css'
+import './Lista.css'
 
 const Lista = ({todos, setTodos}) => {
   return (

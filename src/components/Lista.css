@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo {
+    display: flex;
+    align-items: center;
+    margin-top: .5em;
+    padding: 16px;
+    border: 1px solid #ccc;
+    background-color: rgba(204, 204, 204, 0.575);
+  }
+  
+  .todo span {
+    flex-grow: 1;
+  }
+  
+  .todo.completed {
+    text-decoration: line-through;
+  }
+  
